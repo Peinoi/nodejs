@@ -66,7 +66,7 @@ result = numAry.reduce((acc, elem) => {
   // let exists = acc.reduce(function (acc2, elem2) {
   //   return acc2 || elem2 == elem;
   // }, false);
-  //   // if(!exists){acc.push(elem)}
+  // if(!exists){acc.push(elem)}
 
   //방법2
   if (!acc.includes(elem)) {
