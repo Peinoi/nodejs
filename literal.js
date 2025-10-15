@@ -19,7 +19,7 @@ let friends = ["김민규", "박철홍"];
 console.log(...friends);
 
 let newAry = [...friends, ...getStudentInfo()];
-console.log(newAry);
+console.log("이거" + newAry);
 
 //Object Destrusturing
 const person = {
