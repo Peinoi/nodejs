@@ -32,4 +32,10 @@ console.log(fn, ln, age);
 //Array Destrusturing
 //"홍길동", "김민수", "박충원", "홍영기"
 let [ary1, ary2, ary3, ary4] = getStudentInfo();
-console.log(ary1);
+console.log(ary1, ary2, ary3);
+
+//default function prameter
+function minus(n1 = 0, n2 = 0) {
+  return n1 - n2;
+}
+console.log(minus(10));
