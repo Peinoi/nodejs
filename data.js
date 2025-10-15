@@ -16,4 +16,4 @@ function getStudentInfo() {
   return ["홍길동", "김민수", "박충원", "홍영기"];
 }
 
-export { studentsAry, sum, PI };
+export { studentsAry, sum, PI, getStudentInfo };
