@@ -13,6 +13,8 @@
 |                   | `git checkout -b <브랜치명>`              | 새 브랜치 생성 및 이동  |
 |                   | `git merge <브랜치명>`                    | 브랜치 병합             |
 |                   | `git push -u origin main`                 | 서버 전송               |
+|                   | `git checkout <브랜치명>`                 | 새 브랜치 이동          |
+|                   | `git merge <브랜치명>`                    | 브랜치 병합             |
 | **원격 저장소**   | `git remote add origin <URL>`             | 원격 저장소 연결        |
 |                   | `git push -u origin <브랜치>`             | 첫 푸시                 |
 |                   | `git pull`                                | 원격 변경사항 가져오기  |
