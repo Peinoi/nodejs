@@ -1,5 +1,6 @@
 #확장자 txt,log파일은 커밋대상에서 제외
-*.txt
-*.log
 node_modules
 .DS_Store
+files/*
+uploads/*
+upllads/*
