@@ -134,7 +134,7 @@ app.put("/customers", async (req, res) => {
   const param = req.body.param;
   // console.log(param);
   const sql = `update customers set ? where id=?`;
-  let result = await mysql.ueryExecute(sql, param);
+  let result = await mysql.queryExecute(sql, param);
   res.send(result);
 });
 
